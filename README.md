@@ -24,7 +24,7 @@ allprojects {
 2. 在模块下的 `build.gradle` 增加依赖引用 
 ```groovy
 dependencies {
-    implementation 'com.github.secoo-android:coobox:x.y.z'
+    implementation 'com.github.androidyue:coobox:x.y.z'
 }
 ```
 
@@ -60,7 +60,7 @@ runSafely {
 ```kotlin
 // 将字符串转成合格的 Uri，否则为 null
 
-"https://m.secoo.com".toValidUri()
+"https://droidyue.com".toValidUri()
 
 // 检测某个字符串是否是合格的 Uri
 "Are you OK?".isValidUriString() //false 
@@ -95,7 +95,7 @@ aView.removeSelf()
 License
 =======
 
-    Copyright 2021 The Secoo Open Source Project
+    Copyright 2022 The Open Source Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
